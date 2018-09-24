@@ -13,6 +13,7 @@ def cross():
 def poly(n_sides):
     shape("turtle")
     color("green", "red")
+    write("Polygon Power!", True, align="center")
     begin_fill()
     for number in range(0, n_sides):
             forward(100)
