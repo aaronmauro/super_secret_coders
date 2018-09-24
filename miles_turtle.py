@@ -20,6 +20,18 @@ def poly(n_sides):
             right(360 / n_sides)
     end_fill()
 
+def stop_sign_fun():
+    shape("turtle")
+    color("red", "red")
+    begin_fill()
+    for number in range(0, 8):
+            forward(100)
+            right(360 / 8)
+    end_fill()
+    color("red","white")
+    write("STOP", True, align="right")
+    write("STOP SIGN FUN!!!", True, align="left")
+
 def shell_advanced(size):
     shape("turtle")
     color("blue")
